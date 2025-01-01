@@ -44,8 +44,6 @@ function TodayActivity() {
     <StyledToday>
       <Row type="horizontal">
         <Heading type="h2">Today</Heading>
-        {/* Through the 'as' props, we make the button Polymorphic! Built-in into styled components. The polymorphic component pattern comes in handy when we need flexibility on the rendered HTML element. */}
-        {/* id of -1 means there is no ID, which means a new booking will be made for a new guest */}
       </Row>
 
       {!isLoading ? (
